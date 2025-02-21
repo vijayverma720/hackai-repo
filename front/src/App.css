@@ -1,0 +1,175 @@
+/* General Styles */
+.app {
+  min-height: 100vh;
+  background-color: #f3f4f6;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #2563eb;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+}
+
+.navbar h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Navbar Links */
+.nav-links {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* Container */
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.container h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.container p {
+  margin-top: 1rem;
+  color: #4b5563;
+}
+
+/* Buttons */
+.buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.buttons button,
+.buttons a {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+  text-decoration: none;
+}
+
+.btn-report {
+  background-color: #2563eb;
+}
+
+.btn-report:hover {
+  background-color: #1d4ed8;
+}
+
+.btn-donate {
+  background-color: #16a34a;
+}
+
+.btn-donate:hover {
+  background-color: #15803d;
+}
+
+.btn-volunteer {
+  background-color: #9333ea;
+}
+
+.btn-volunteer:hover {
+  background-color: #7e22ce;
+}
+
+/* Report Form Section */
+.report-form-section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.report-form-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Volunteer Form Section */
+.volunteer-form-section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.volunteer-form-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Donation Form Section */
+.donation-form-section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.donation-form-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Startup Form Section */
+.startup-form-section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.startup-form-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+/* Investment Form Section */
+.investment-form-section {
+  margin: 2rem auto;
+  padding: 1rem;
+  max-width: 800px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.investment-form-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
